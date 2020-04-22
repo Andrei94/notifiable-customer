@@ -15,7 +15,7 @@ public class NotifiableCustomerFunctionTest {
 	@Test
 	public void testFunction() {
 		NotifiableCustomer body = new NotifiableCustomer();
-		body.setName("notifiable-customer");
-		assertEquals("notifiable-customer", client.apply(body).blockingGet().getName());
+		body.setEmail("notifiable-customer");
+		assertEquals("notifiable-customer", client.apply(body).blockingGet().getEmail());
 	}
 }

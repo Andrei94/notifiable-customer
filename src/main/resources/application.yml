@@ -1,3 +1,13 @@
 micronaut:
   function:
     name: notifiable-customer
+  server:
+    port: 8087
+    cors:
+      enabled: true
+      configurations:
+        web:
+          allowedOrigins:
+            - http://localhost:4200
+          allowedMethods:
+            - POST
