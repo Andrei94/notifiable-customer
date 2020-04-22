@@ -1,0 +1,5 @@
+profile: function-aws
+defaultPackage: notifiable.customer
+---
+testFramework: junit
+sourceLanguage: java
